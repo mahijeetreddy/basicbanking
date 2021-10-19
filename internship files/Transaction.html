@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+    <head>  
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Bank.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <h1 style="color: rgb(4, 119, 119); font-weight:1000;">MONEY TRANSFER</h1>
+        <div class="balance">
+         
+        <table class="recievers" > 
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Email ID</th>
+                <th>Balance(INR)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="Name">Harsha</td>
+                <td>harsha@gmail.com</td>
+                <td id="HarshaBalance">20000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="Name">Akhil</td>
+                <td>akhil@gmail.com</td>
+                <td id="AkhilBalance" >5000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="Name">Ritish</td>
+                <td>ritish@gmail.com</td>
+                <td id="RitishBalance">6800</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="Name">Akshay</td>
+                <td>akshay@gmail.com</td>
+                <td id="AkshayBalance">10000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="Name">Sankalp</td>
+                <td>sankalp@gmail.com</td>
+                <td id="SankalpBalance">8000</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td class="Name">Nithin</td>
+                <td>nithin@gmail.com</td>
+                <td id="NithinBalance">6800</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td class="Name">Robert</td>
+                <td>robert@gmail.com</td>
+                <td id="RobertBalance">800</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td class="Name">Chris</td>
+                <td>chris@gmail.com</td>
+                <td id="ChrisBalance">1500</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td class="Name">Evans</td>
+                <td>evans@gmail.com</td>
+                <td id="EvansBalance">70000</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td class="Name">Tom</td>
+                <td>tom@gmail.com</td>
+                <td id="TomBalance">48000</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td class="Name">Raven</td>
+                <td>raven@gmail.com</td>
+                <td id="RavenBalance">20000</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td class="Name">Scott</td>
+                <td>scott@gmail.com</td>
+                <td id="ScottBalance" >5000</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td class="Name">Linda</td>
+                <td>linda@gmail.com</td>
+                <td id="LindaBalance">6800</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td class="Name">Jake</td>
+                <td>jake@gmail.com</td>
+                <td id="JakeBalance">10000</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td class="Name">Amy</td>
+                <td>amy@gmail.com</td>
+                <td id="AmyBalance">8000</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td class="Name">Gina</td>
+                <td>gina@gmail.com</td>
+                <td id="GinaBalance">6800</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td class="Name">Holt</td>
+                <td>holt@gmail.com</td>
+                <td id="HoltBalance">800</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td class="Name">Boyle</td>
+                <td>boyle@gmail.com</td>
+                <td id="BoyleBalance">1500</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td class="Name">Terry</td>
+                <td>terry@gmail.com</td>
+                <td id="TerryBalance">70000</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td class="Name">Rosa</td>
+                <td>rosa@gmail.com</td>
+                <td id="RosaBalance">48000</td>
+            </tr>
+        </table> 
+        </div>   
+        <div class="mydetails">
+            
+                <h2 style="position:relative; right:10px; border-radius: 5px; padding: 0 5px 0 5px;color: rgb(1, 82, 82);">My account details</h2>
+                <h3 style="padding-bottom:8px; font-size:1.2rem;font-weight: lighter;">My Name: Mahijeet</h3>
+                <div class="h2"><h3 style="padding-bottom:8px; font-size:1.2rem;font-weight: lighter;">My Balance: ₹</h3></div>
+                <div class="b"><h3 id="MahijeetBalance">5000000</h3></div>
+
+        </div>        
+        <div class="transaction">
+            <form action="" name="transfer" method="POST">
+                <label style="font-size:1.2rem;">Transfer to:</label>
+                <select  name="To" id="To" placeholder="Reciever's name" required> <!--FOR DROP DOWN OPTIONS-->
+                    <option>--Select Reciever--</option>
+                    <option>Harsha</option>
+                    <option>Akhil</option>
+                    <option>Ritish</option>
+                    <option>Akshay</option>
+                    <option>Sankalp</option>
+                    <option>Nithin</option>
+                    <option>Robert</option>
+                    <option>Chris</option>
+                    <option>Evans</option>
+                    <option>Tom</option>
+                    <option>Raven</option>
+                    <option>Scott</option>
+                    <option>Linda</option>
+                    <option>Jake</option>
+                    <option>Amy</option>
+                    <option>Gina</option>
+                    <option>Holt</option>
+                    <option>Boyle</option>
+                    <option>Terry</option>
+                    <option>Rosa</option>
+                </select><br>
+
+                <label style="font-size:1.2rem;">Amount:</label>
+                <input type="text" name="Amount" id="Amount" placeholder="Amount" ><br>
+
+                <input style="font-size:1.2rem; background-color: rgb(85, 202, 202);" type="button" name="submit" value="Transfer" onclick="return Transfer()" >
+                
+            </form> 
+        </div>
+        <script src="bank.js" charset="utf-8"></script>
+    </body>    
+        
+</html>

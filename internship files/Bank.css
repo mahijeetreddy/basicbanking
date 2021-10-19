@@ -1,0 +1,171 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right,white,rgb(80, 185, 185)) ;
+    -webkit-background-composite: border;
+    font-family: 'Lora', serif;
+    color:  rgb(0, 54, 54);;
+}    
+table,td,th,tr{
+    text-align: center;
+
+    border: 1px rgb(228, 239, 240);;
+    border-style:none;
+    border-color: rgb(139, 225, 240);
+    padding: 5px;;
+    border-collapse:collapse;
+    width: 45%;
+    box-shadow: #E0FFFF;
+    
+    
+   
+}
+tr:nth-child(even){
+    background-color: rgb(230, 250, 252);
+}
+th{
+  
+    border-style:double;
+    padding: 5px;;
+    border-collapse:collapse;
+    background-color: rgb(153, 224, 233);
+}    
+tr:hover{
+    background-color: rgb(169, 220, 250);
+}
+.recievers{
+    display:inline-block;
+    position: absolute;
+    left: 8%;
+   
+    
+}
+
+form{
+    display: inline-block;
+    position: absolute ;
+    right: 8%;
+    top: 50%;
+background-color: rgb(153, 224, 233);
+border-radius: 8px;
+padding: 5.3%;
+background-image: linear-gradient(to right,rgb(210, 227, 233),rgb(153, 224, 233));
+
+}
+select,input{
+    margin: 10px;
+    padding:3px;
+    border: white;
+    border-radius: 4px;
+    background-color: #E0FFFF;
+  
+}
+
+.mydetails{
+    display: inline-block;
+    position: absolute;
+    right: 8%;
+    top:15%;
+    text-align-last: left;
+    background-color: rgb(153, 224, 233);
+    border-radius: 8px;
+    padding-left: 100px;
+    padding-right: 83px;
+    background-image: linear-gradient(to right,rgb(153, 224, 233),rgb(210, 227, 233));
+}
+.acc{
+    text-align: center;
+}
+.h2{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+
+    text-align: left;
+}
+.b{
+    display: inline-block;
+    position: relative;
+    bottom: 27px;
+    left: 120px;
+}
+
+.make{
+    background-color: white;
+    display: block;
+    width: 20%;
+    padding:2% 5% 2% 5%;
+    border-radius: 15px;
+   
+    background-color: rgb(0, 54, 54);
+    position:absolute;
+    right:34%;
+    bottom:20%;
+   
+    
+}
+.make1{
+    background-color: white;
+    display: block;
+    width: 20%;
+    padding:2% 5% 2% 5%;
+    border-radius: 15px;
+   
+    background-color: rgb(0, 54, 54);
+    position:absolute;
+    right:34%;
+    bottom:4%;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family:'lora',serif;
+}
+.ri{
+    color: rgb(188, 224, 224);
+    color:black;
+    text-shadow: rgb(0, 0, 0);
+    
+    font-size: 180%;
+    display: block;
+    position: relative;
+    right: 13%;
+    top:60px;
+}
+.rig{
+    font-size: 150%;
+    display: block;
+    position: absolute;
+    right:20%;
+    top: 40%;
+    
+        color: rgb(79, 206, 206);
+        color:black;
+        text-shadow: rgb(0, 0, 0);
+   
+}
+.gif{
+    display: inline-block;
+    position: relative;
+    top:50px;
+    width:20;
+    left:-7px;
+    
+}
+.ts{
+    display: inline-block;
+    position: absolute;
+    top:30%;
+    left:40%;
+    size: 12px;
+}
+
+.homep{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+ 
+    font-size: 10px;
+}
